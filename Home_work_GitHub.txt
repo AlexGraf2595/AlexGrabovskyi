@@ -1,0 +1,219 @@
+1) Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (main)
+$ git checkout -b Postman
+Switched to a new branch 'Postman'
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (Postman)
+$ git checkout -b Jmeter
+Switched to a new branch 'Jmeter'
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (main)
+$ git checkout -b CheckLists
+Switched to a new branch 'CheckLists'
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (main)
+$ git checkout -b BagReports
+Switched to a new branch 'BagReports'
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (BagReports)
+$ git checkout -b SQL
+Switched to a new branch 'SQL'
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (SQL)
+$ git checkout -b Cherles
+Switched to a new branch 'Cherles'
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (Cherles)
+$ git checkout -b MobileTesting
+Switched to a new branch 'MobileTesting'
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (MobileTesting)
+$ git branch
+  BagReports
+  CheckLists
+  Cherles
+  Jmeter
+* MobileTesting
+  Postman
+  SQL
+  main
+  test_branch
+2)Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (main)
+$ git push -u origin Jmeter
+Enter passphrase for key '/c/Users/Sanya/.ssh/id_rsa':
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Jmeter' on GitHub by visiting:
+remote:      https://github.com/AlexGraf2595/AlexGrabovskyi/pull/new/Jmeter
+remote:
+To github.com:AlexGraf2595/AlexGrabovskyi.git
+ * [new branch]      Jmeter -> Jmeter
+Branch 'Jmeter' set up to track remote branch 'Jmeter' from 'origin'.
+
+$ git push -u origin BagReports
+Enter passphrase for key '/c/Users/Sanya/.ssh/id_rsa':
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 1.20 KiB | 136.00 KiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+remote:
+remote: Create a pull request for 'BagReports' on GitHub by visiting:
+remote:      https://github.com/AlexGraf2595/AlexGrabovskyi/pull/new/BagReports
+remote:
+To github.com:AlexGraf2595/AlexGrabovskyi.git
+ * [new branch]      BagReports -> BagReports
+Branch 'BagReports' set up to track remote branch 'BagReports' from 'origin'.
+
+$ git push -u origin CheckLists
+Enter passphrase for key '/c/Users/Sanya/.ssh/id_rsa':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 697 bytes | 139.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'CheckLists' on GitHub by visiting:
+remote:      https://github.com/AlexGraf2595/AlexGrabovskyi/pull/new/CheckLists
+remote:
+To github.com:AlexGraf2595/AlexGrabovskyi.git
+ * [new branch]      CheckLists -> CheckLists
+Branch 'CheckLists' set up to track remote branch 'CheckLists' from 'origin'.
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (BagReports)
+$ git push -u origin Cherles
+Enter passphrase for key '/c/Users/Sanya/.ssh/id_rsa':
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Cherles' on GitHub by visiting:
+remote:      https://github.com/AlexGraf2595/AlexGrabovskyi/pull/new/Cherles
+remote:
+To github.com:AlexGraf2595/AlexGrabovskyi.git
+ * [new branch]      Cherles -> Cherles
+Branch 'Cherles' set up to track remote branch 'Cherles' from 'origin'.
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (BagReports)
+$ git push -u origin MobileTesting
+Enter passphrase for key '/c/Users/Sanya/.ssh/id_rsa':
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'MobileTesting' on GitHub by visiting:
+remote:      https://github.com/AlexGraf2595/AlexGrabovskyi/pull/new/MobileTesting
+remote:
+To github.com:AlexGraf2595/AlexGrabovskyi.git
+ * [new branch]      MobileTesting -> MobileTesting
+Branch 'MobileTesting' set up to track remote branch 'MobileTesting' from 'origin'.
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (BagReports)
+$ git push -u origin Postman
+Enter passphrase for key '/c/Users/Sanya/.ssh/id_rsa':
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Postman' on GitHub by visiting:
+remote:      https://github.com/AlexGraf2595/AlexGrabovskyi/pull/new/Postman
+remote:
+To github.com:AlexGraf2595/AlexGrabovskyi.git
+ * [new branch]      Postman -> Postman
+Branch 'Postman' set up to track remote branch 'Postman' from 'origin'.
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (BagReports)
+$ git push -u origin SQL
+Enter passphrase for key '/c/Users/Sanya/.ssh/id_rsa':
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'SQL' on GitHub by visiting:
+remote:      https://github.com/AlexGraf2595/AlexGrabovskyi/pull/new/SQL
+remote:
+To github.com:AlexGraf2595/AlexGrabovskyi.git
+ * [new branch]      SQL -> SQL
+Branch 'SQL' set up to track remote branch 'SQL' from 'origin'.
+
+3)Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (BagReports)
+$ touch Reports.txt
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (BagReports)
+$ ls -la
+total 8
+drwxr-xr-x 1 Sanya 197121 0 Jul  6 22:17 ./
+drwxr-xr-x 1 Sanya 197121 0 Jul  5 23:24 ../
+drwxr-xr-x 1 Sanya 197121 0 Jul  6 22:15 .git/
+-rw-r--r-- 1 Sanya 197121 0 Jul  6 22:17 Reports.txt
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (BagReports)
+$ git add Reports.txt
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (BagReports)
+$ git commit -m "add Reports file"
+[BagReports ecfbfba] add Reports file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Reports.txt
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (BagReports)
+$ nano Reports.txt
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (BagReports)
+$ git add Reports.txt
+warning: LF will be replaced by CRLF in Reports.txt.
+The file will have its original line endings in your working directory
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (BagReports)
+$ git commit -m "creating a bug report"
+[BagReports 829a489] creating a bug report
+ 1 file changed, 14 insertions(+)\
+
+5)Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (main)
+$ git merge BagReports
+Updating 31a7d7b..829a489
+Fast-forward
+ Reports.txt | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+ create mode 100644 Reports.txt
+
+
+6)Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (BagReports)
+$ git push -u origin main
+Enter passphrase for key '/c/Users/Sanya/.ssh/id_rsa':
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:AlexGraf2595/AlexGrabovskyi.git
+   31a7d7b..86d8e8d  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+7)Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (CheckLists)
+$ touch CheckList1.txt
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (CheckLists)
+$ nano CheckList1.txt
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (CheckLists)
+$ git add CheckList1.txt
+warning: LF will be replaced by CRLF in CheckList1.txt.
+The file will have its original line endings in your working directory
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (CheckLists)
+$ git commit -m "creating check list"
+[CheckLists a756c2f] creating check list
+ 1 file changed, 16 insertions(+)
+ create mode 100644 CheckList1.txt
+
+8)Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (main)
+$ git pull
+Enter passphrase for key '/c/Users/Sanya/.ssh/id_rsa':
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (2/2), 747 bytes | 19.00 KiB/s, done.
+From github.com:AlexGraf2595/AlexGrabovskyi
+   90007ba..46ae20a  main       -> origin/main
+Updating 90007ba..46ae20a
+Fast-forward
+ CheckList1.txt | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+ create mode 100644 CheckList1.txt
+
+Sanya@DESKTOP-2BELP8P MINGW64 /c/GidHub/Main/AlexGrabovskyi (main)
+$ git push
+Enter passphrase for key '/c/Users/Sanya/.ssh/id_rsa':
+Everything up-to-date
